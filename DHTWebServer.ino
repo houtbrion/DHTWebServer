@@ -198,7 +198,7 @@ void setup() {
 
 void loop() {
   unsigned long currentTime =now();
-  if ((1==hour())&&(3600 > currentTime - bootTime)){ // 稼働時間が1時間以上で，夜中一時だったらリブート
+  if ((1==hour())&&(3600 < currentTime - bootTime)){ // 稼働時間が1時間以上で，夜中一時だったらリブート
 #ifdef DEBUG
     Serial.println(F("timer fire"));
 #endif /* DEBUG */
