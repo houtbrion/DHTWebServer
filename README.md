@@ -156,7 +156,7 @@ LM35DZとDHT11の両方を搭載しているが，DHT11の温度測定の精度�
 [FTDI]: <https://www.switch-science.com/catalog/1032/> "シリアルインターフェース"
 
 <!--イメージファイル-->
-[system]: system.jpg "本体写真"
-[breadboard]: breadboard.jpg "ブレッドボード利用時の配線イメージ"
-[circuit]: circuit.jpg "回路図"
+[system]: Doc/fig/system.jpg "本体写真"
+[breadboard]: Doc/fig/breadboard.jpg "ブレッドボード利用時の配線イメージ"
+[circuit]: Doc/fig/circuit.jpg "回路図"
 
